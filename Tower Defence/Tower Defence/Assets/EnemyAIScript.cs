@@ -5,35 +5,57 @@ using UnityEngine;
 public class EnemyAIScript : MonoBehaviour
 {
 
-	public Rigidbody Enemy;
 	public float MovementSpeed = 10.0f;
-	Vector3 lastEnemy = new Vector3();
-	
-	void Start ()
+	private float random;
+
+	void Start()
 	{
-		GetComponent<Rigidbody>();		 
+		GetComponent<Rigidbody>();
 	}
-	
-	
-	void FixedUpdate()
+
+	private void OnTriggerEnter(Collider other)
+	{
+		
+		Debug.Log(other);
+		
+		if (other.gameObject.CompareTag("Enemy"))
+		{
+			Debug.Log("Found one!");
+		}
+		else
+		{
+			Debug.Log("Nope");
+
+			Vector3 fwd = transform.TransformDirection(Vector3.forward);
+			Vector3 left = transform.TransformDirection(Vector3.left);
+			Vector3 right = transform.TransformDirection(Vector3.right);
+
+			if (Physics.Raycast(transform.position, fwd, 5))
+			{
+				if (Physics.Raycast(transform.position, left, 5))
+				{
+					transform.Rotate(new Vector3(0, 90, 0));
+				}
+				else if (Physics.Raycast(transform.position, right, 5))
+				{
+					transform.Rotate(new Vector3(0, -90, 0));
+				}
+				else
+				{
+					random = Random.value;
+					if (random <= .5)
+						transform.Rotate(new Vector3(0, 90, 0));
+					if (random > .5)
+						transform.Rotate(new Vector3(0, -90, 0));
+
+				}
+			}
+		}
+	}
+
+	private void Update()
 	{
 		transform.position += transform.forward * Time.deltaTime * MovementSpeed;
 		
-		Vector3 fwd = transform.TransformDirection(Vector3.forward);
-		Vector3 lft = transform.TransformDirection(Vector3.forward);
-		
-		if (Physics.Raycast(transform.position, fwd, 10))
-		{
-			if (Physics.Raycast(transform.position, lft, 10))
-			{
-				transform.Rotate(new Vector3(0,-90,0));	
-			}
-			else
-			{
-				transform.Rotate(new Vector3(0,180,0));
-			}
-
-		}
-			
 	}
 }

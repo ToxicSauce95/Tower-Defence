@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3cde948-7133-457c-900b-df005d5e67da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower Defence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower Defence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyAIScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAIScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower Defence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower Defence/.idea/contentModel.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnemyAIScript.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnemyAIScript.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/EnemyAIScript.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -69,6 +65,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Enemy Spawner.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Enemy Spawner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding>
+                <marker date="1539022420748" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539022420748" expanded="true" signature="122:361" ph="{...}" />
+                <marker date="1539022420748" expanded="true" signature="196:203" ph="{...}" />
+                <marker date="1539022420748" expanded="true" signature="224:359" ph="{...}" />
+                <marker date="1539022420748" expanded="true" signature="263:353" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -78,6 +90,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/EnemyAIScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Enemy Spawner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -86,6 +99,7 @@
         <option value="$PROJECT_DIR$/Assets/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyAIScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Enemy Spawner.cs" />
       </list>
     </option>
   </component>
@@ -95,7 +109,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="1294" />
     <option name="height" value="1047" />
@@ -162,12 +176,12 @@
       <workItem from="1538669852490" duration="6991000" />
       <workItem from="1538756151757" duration="319000" />
       <workItem from="1539015327755" duration="4078000" />
-      <workItem from="1539019464936" duration="2443000" />
+      <workItem from="1539019464936" duration="2945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17050000" />
+    <option name="totallyTimeSpent" value="17552000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -179,7 +193,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -476,6 +490,20 @@
             <marker date="1539021749854" expanded="true" signature="844:903" ph="{...}" />
             <marker date="1539021749854" expanded="true" signature="912:1093" ph="{...}" />
             <marker date="1539021749854" expanded="true" signature="1129:1214" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Enemy Spawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <marker date="1539022420748" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539022420748" expanded="true" signature="122:361" ph="{...}" />
+            <marker date="1539022420748" expanded="true" signature="196:203" ph="{...}" />
+            <marker date="1539022420748" expanded="true" signature="224:359" ph="{...}" />
+            <marker date="1539022420748" expanded="true" signature="263:353" ph="{...}" />
           </folding>
         </state>
       </provider>

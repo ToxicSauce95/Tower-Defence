@@ -16,15 +16,15 @@ public class EnemyAIScript : MonoBehaviour
 	private void OnTriggerEnter(Collider other)
 	{
 		
-		Debug.Log(other);
+		
 		
 		if (other.gameObject.CompareTag("Enemy"))
 		{
-			Debug.Log("Found one!");
+		
 		}
 		else
 		{
-			Debug.Log("Nope");
+		
 
 			Vector3 fwd = transform.TransformDirection(Vector3.forward);
 			Vector3 left = transform.TransformDirection(Vector3.left);

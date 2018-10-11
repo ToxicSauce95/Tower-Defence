@@ -3,32 +3,41 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Utility;
 
 public class EnemySpawner : MonoBehaviour
 {
 
 	public GameObject Enemy;
-	public int SpawnRate = 5;
 	public Transform Spawnpoint;
-	private int Wave = 0;
 	public Button StartButton;
+	public Text RoundText;
+	public int SpawnRate = 5;
+	public int Round = 0;
 	
 	void Start()
 	{
 		Button btn1 = StartButton.GetComponent<Button>();
+		Round = 0;
+		SetRoundText ();
 
-
-		//Calls the TaskOnClick/TaskWithParameters method when you click the Button
 		btn1.onClick.AddListener(TaskOnClick);
 	}
-
-
-
+	
 	void TaskOnClick()
 	{
-		//Output this to console when the Button is clicked
+		Round = Round + 1;
+		SetRoundText();
+
 		Debug.Log("You have clicked the button!");
 	}
+
+	void SetRoundText()
+	{
+		RoundText.text = "Round: " + Round.ToString();
+	}
+
+
 
 	void TaskWithParameters(string message)
 	{

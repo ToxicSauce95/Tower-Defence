@@ -9,6 +9,8 @@ TagManager:
   - Enemy
   - Right
   - Left
+  - Random
+  - EndPoint
   layers:
   - Default
   - TransparentFX

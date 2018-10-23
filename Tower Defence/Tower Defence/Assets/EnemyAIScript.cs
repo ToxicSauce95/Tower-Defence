@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using UnityEngine;
-using UnityEngine.AI;
+﻿using UnityEngine;
 
 public class EnemyAIScript : MonoBehaviour
 {
@@ -52,11 +48,11 @@ public class EnemyAIScript : MonoBehaviour
 				transform.Rotate(0, -90, 0);
 			}
 
-			if (col.gameObject.tag == "EndPoint")
+		if (col.gameObject.CompareTag("EndPoint"))
 			{
-				DestroyObject(GameObject);
+				Destroy(gameObject, 0);
 			}
-
+		
 		}
 		
 	}

@@ -2,18 +2,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Net;
+using System.Runtime.InteropServices;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 using UnityStandardAssets.Utility;
+using Object = UnityEngine.Object;
 
 public class EnemySpawner : MonoBehaviour
 {
-	
-	public Transform Spawnpoint;
+	public GameObject Enemy;
+	public Transform SpawnPoint;
 	public Button StartButton;
 	public Text RoundText;
 	public int Round = 0;
 	public int SpawnRate = 5;
+	private int EnemyAmount = 0;
+	
 	
 	void Start()
 	{
@@ -39,13 +44,25 @@ public class EnemySpawner : MonoBehaviour
 		RoundText.text = "Round: " + Round.ToString();
 	}
 
-
-
-	void TaskWithParameters(string message)
+	void Update()
 	{
-		//Output this to console when the Button is clicked
-		Debug.Log(message);
+		if (Round == 1)
+		{
+			EnemyAmount = 10;
+			Invoke("Spawn", 1);
+		}
 	}
+
+
+	void Spawn()
+	{
+		for (var i = 0; i < EnemyAmount; i++)
+			new WaitForSeconds(SpawnRate);
+			
+		Instantiate(Enemy, SpawnPoint);
+
+	}
+
 }
 
 

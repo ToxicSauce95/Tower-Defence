@@ -2,268 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3cde948-7133-457c-900b-df005d5e67da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower Defence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower Defence/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower Defence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower Defence/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/EnemyAIScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAIScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemySpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HealthScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HealthScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master.zip.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Cube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Cube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Editor/NavMeshComponentsExamplesEditor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Editor/NavMeshComponentsExamplesEditor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Editor/NavMeshPrefabInstanceEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Editor/NavMeshPrefabInstanceEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/brightgreen.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/brightgreen.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/brown.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/brown.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/crosshair.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/crosshair.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/floor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/floor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/green.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/green.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/grey.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/grey.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/modify_crosshair.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/modify_crosshair.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/red.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/red.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/yellow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Materials/yellow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/NavMeshComponentsExamples.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/NavMeshComponentsExamples.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/BanyanTree.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/BanyanTree.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/BanyanTree.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/BanyanTree.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile0.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile0.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile10.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile10.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile11.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile11.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile12.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile12.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile13.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile13.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile14.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile14.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile15.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile15.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile3.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile3.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile4.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile4.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile5.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile5.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile6.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile6.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile7.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile7.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile8.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile8.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile9.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/DungeonTiles/Tile9.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/GroundTile.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/GroundTile.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/Materials/BanyanBark.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/Materials/BanyanBark.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/Materials/BanyanBranches.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/Materials/BanyanBranches.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/Plank.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Prefabs/Plank.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/1_multiple_agent_sizes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/1_multiple_agent_sizes.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/1_multiple_agent_sizes.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/1_multiple_agent_sizes/NavMesh-Geometry 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/1_multiple_agent_sizes/NavMesh-Geometry 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/1_multiple_agent_sizes/NavMesh-Geometry.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/1_multiple_agent_sizes/NavMesh-Geometry.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/2_drop_plank.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/2_drop_plank.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/3_free_orientation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/3_free_orientation.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/3_free_orientation.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/3_free_orientation/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/3_free_orientation/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/4_sliding_window_infinite.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/4_sliding_window_infinite.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/5_sliding_window_terrain.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/5_sliding_window_terrain.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/6_modify_mesh.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/6_modify_mesh.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/7_dungeon.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/7_dungeon.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/7b_dungeon_tile_prefabs.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scenes/7b_dungeon_tile_prefabs.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/AgentLinkMover.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/AgentLinkMover.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/ClickToMove.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/ClickToMove.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/DestroyOnTrigger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/DestroyOnTrigger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/DungeonManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/DungeonManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/EnableIffSleeping.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/EnableIffSleeping.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/FreeCam.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/FreeCam.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/LocalNavMeshBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/LocalNavMeshBuilder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/MeshTool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/MeshTool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/NavMeshPrefabInstance.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/NavMeshPrefabInstance.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/NavMeshSourceTag.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/NavMeshSourceTag.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/Oscillator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/Oscillator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/RandomInstancing.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/RandomInstancing.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/RandomWalk.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/RandomWalk.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/SpawnPrefabOnKeyDown.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Scripts/SpawnPrefabOnKeyDown.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Terrains.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Terrains/Islands.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Terrains/Islands.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Terrains/LightmapWithFog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Examples/Terrains/LightmapWithFog.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Gizmos.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Gizmos/NavMeshLink Icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Gizmos/NavMeshLink Icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Gizmos/NavMeshModifierVolume Icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Gizmos/NavMeshModifierVolume Icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Gizmos/NavMeshSurface Icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Gizmos/NavMeshSurface Icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Scripts/NavMeshLink.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Scripts/NavMeshLink.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Scripts/NavMeshModifier.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Scripts/NavMeshModifier.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Scripts/NavMeshSurface.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/NavMeshComponents/Scripts/NavMeshSurface.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Tests.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Tests/NavMeshComponentsPlaymodeTests.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Tests/NavMeshComponentsPlaymodeTests.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Tests/NavMeshSurfaceAgentTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Tests/NavMeshSurfaceAgentTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Tests/NavMeshSurfaceLinkTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Tests/NavMeshSurfaceLinkTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Tests/NavMeshSurfaceModifierTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Tests/NavMeshSurfaceModifierTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Tests/NavMeshSurfaceModifierVolumeTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Tests/NavMeshSurfaceModifierVolumeTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Tests/NavMeshSurfaceTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Assets/Tests/NavMeshSurfaceTests.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/ConnectingSurfaces.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/ConnectingSurfaces.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/Images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/Images/ConnectingSurfaces-Example.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/Images/ConnectingSurfaces-Example.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/Images/NavMeshLink-Example.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/Images/NavMeshLink-Example.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/Images/NavMeshModifier-Example.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/Images/NavMeshModifier-Example.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/Images/NavMeshModifierVolume-Example.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/Images/NavMeshModifierVolume-Example.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/Images/NavMeshSurface-Advanced.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/Images/NavMeshSurface-Advanced.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/Images/NavMeshSurface-Example.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/Images/NavMeshSurface-Example.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/NavMeshLink.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/NavMeshLink.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/NavMeshModifier.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/NavMeshModifier.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/NavMeshModifierVolume.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/NavMeshModifierVolume.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/NavMeshSurface.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/NavMeshSurface.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Documentation/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/LICENSE.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Packages.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Packages/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/Packages/manifest.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/AudioManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/AudioManager.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/ClusterInputManager.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/DynamicsManager.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/EditorBuildSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/EditorSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/EditorSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/GraphicsSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/InputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/InputManager.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/NavMeshAreas.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/NetworkManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/NetworkManager.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/Physics2DSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/PresetManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/PresetManager.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/ProjectSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/ProjectVersion.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/QualitySettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/QualitySettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/TagManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/TagManager.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/TimeManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/TimeManager.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/ProjectSettings/UnityConnectSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMeshComponents-master/NavMeshComponents-master/README.md.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -277,46 +21,34 @@
       <file leaf-file-name="CameraController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CameraController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
+            <state relative-caret-position="675">
               <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnemyAIScript.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnemyAIScript.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/EnemyAIScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
-              <folding>
-                <marker date="1539971666704" expanded="true" signature="6:138" ph="..." />
-                <marker date="1539971666704" expanded="true" signature="182:991" ph="{...}" />
-                <marker date="1539971666704" expanded="true" signature="304:339" ph="{...}" />
-                <marker date="1539971666704" expanded="true" signature="355:434" ph="{...}" />
-                <marker date="1539971666704" expanded="true" signature="478:989" ph="{...}" />
-                <marker date="1539971666704" expanded="true" signature="523:532" ph="{...}" />
-                <marker date="1539971666704" expanded="true" signature="542:983" ph="{...}" />
-                <marker date="1539971666704" expanded="true" signature="586:759" ph="{...}" />
-                <marker date="1539971666704" expanded="true" signature="798:840" ph="{...}" />
-                <marker date="1539971666704" expanded="true" signature="878:921" ph="{...}" />
-                <marker date="1539971666704" expanded="true" signature="963:978" ph="{...}" />
-              </folding>
+            <state relative-caret-position="750">
+              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnemySpawner.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EnemySpawner.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/EnemySpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="629">
+              <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
               <folding>
-                <marker date="1539971434250" expanded="true" signature="6:167" ph="..." />
-                <marker date="1539971434250" expanded="true" signature="210:822" ph="{...}" />
-                <marker date="1539971434250" expanded="true" signature="362:499" ph="{...}" />
-                <marker date="1539971434250" expanded="true" signature="522:615" ph="{...}" />
-                <marker date="1539971434250" expanded="true" signature="639:694" ph="{...}" />
-                <marker date="1539971434250" expanded="true" signature="738:820" ph="{...}" />
+                <marker date="1540318072996" expanded="true" signature="6:270" ph="..." />
+                <marker date="1540318072996" expanded="true" signature="313:1067" ph="{...}" />
+                <marker date="1540318072996" expanded="true" signature="521:658" ph="{...}" />
+                <marker date="1540318072996" expanded="true" signature="681:774" ph="{...}" />
+                <marker date="1540318072996" expanded="true" signature="798:853" ph="{...}" />
+                <marker date="1540318072996" expanded="true" signature="869:1064" ph="{...}" />
+                <marker date="1540318072996" expanded="true" signature="890:1061" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -325,16 +57,8 @@
       <file leaf-file-name="HealthScript.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/HealthScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-              <folding>
-                <marker date="1539971434324" expanded="true" signature="6:100" ph="..." />
-                <marker date="1539971434324" expanded="true" signature="150:485" ph="{...}" />
-                <marker date="1539971434324" expanded="true" signature="220:261" ph="{...}" />
-                <marker date="1539971434324" expanded="true" signature="306:402" ph="{...}" />
-                <marker date="1539971434324" expanded="true" signature="346:398" ph="{...}" />
-                <marker date="1539971434324" expanded="true" signature="425:483" ph="{...}" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -357,9 +81,9 @@
         <option value="$PROJECT_DIR$/Assets/CameraController (1).cs" />
         <option value="$PROJECT_DIR$/Assets/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemy Spawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/HealthScript.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyAIScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/EnemySpawner.cs" />
       </list>
     </option>
   </component>
@@ -369,10 +93,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="393" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1273" />
     <option name="width" value="1294" />
-    <option name="height" value="1037" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -392,11 +116,11 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -442,12 +166,13 @@
       <workItem from="1539275009713" duration="2299000" />
       <workItem from="1539625621998" duration="1596000" />
       <workItem from="1539795708365" duration="1723000" />
-      <workItem from="1539966658016" duration="4942000" />
+      <workItem from="1539966658016" duration="5592000" />
+      <workItem from="1540312405940" duration="5649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31845000" />
+    <option name="totallyTimeSpent" value="38144000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,7 +184,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="393" y="0" width="1294" height="1037" extended-state="0" />
+    <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -470,7 +195,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26337114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.267423" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -496,10 +221,47 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/CameraController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyAIScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/EnemySpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <marker date="1540318072996" expanded="true" signature="6:270" ph="..." />
+            <marker date="1540318072996" expanded="true" signature="313:1067" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="521:658" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="681:774" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="798:853" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="869:1064" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="890:1061" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HealthScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CameraController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -512,12 +274,13 @@
         <state relative-caret-position="255">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding>
-            <marker date="1539971434250" expanded="true" signature="6:167" ph="..." />
-            <marker date="1539971434250" expanded="true" signature="210:822" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="362:499" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="522:615" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="639:694" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="738:820" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="6:270" ph="..." />
+            <marker date="1540318072996" expanded="true" signature="313:1067" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="521:658" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="681:774" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="798:853" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="869:1064" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="890:1061" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -526,19 +289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding>
-            <marker date="1539971666704" expanded="true" signature="6:138" ph="..." />
-            <marker date="1539971666704" expanded="true" signature="182:991" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="304:339" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="355:434" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="478:989" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="523:532" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="542:983" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="586:759" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="798:840" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="878:921" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="963:978" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -554,12 +304,13 @@
         <state relative-caret-position="255">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding>
-            <marker date="1539971434250" expanded="true" signature="6:167" ph="..." />
-            <marker date="1539971434250" expanded="true" signature="210:822" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="362:499" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="522:615" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="639:694" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="738:820" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="6:270" ph="..." />
+            <marker date="1540318072996" expanded="true" signature="313:1067" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="521:658" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="681:774" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="798:853" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="869:1064" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="890:1061" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -568,19 +319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <marker date="1539971666704" expanded="true" signature="6:138" ph="..." />
-            <marker date="1539971666704" expanded="true" signature="182:991" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="304:339" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="355:434" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="478:989" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="523:532" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="542:983" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="586:759" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="798:840" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="878:921" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="963:978" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,19 +333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <marker date="1539971666704" expanded="true" signature="6:138" ph="..." />
-            <marker date="1539971666704" expanded="true" signature="182:991" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="304:339" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="355:434" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="478:989" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="523:532" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="542:983" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="586:759" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="798:840" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="878:921" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="963:978" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,12 +341,13 @@
         <state relative-caret-position="540">
           <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
           <folding>
-            <marker date="1539971434250" expanded="true" signature="6:167" ph="..." />
-            <marker date="1539971434250" expanded="true" signature="210:822" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="362:499" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="522:615" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="639:694" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="738:820" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="6:270" ph="..." />
+            <marker date="1540318072996" expanded="true" signature="313:1067" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="521:658" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="681:774" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="798:853" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="869:1064" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="890:1061" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -631,12 +357,13 @@
         <state relative-caret-position="135">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <marker date="1539971434250" expanded="true" signature="6:167" ph="..." />
-            <marker date="1539971434250" expanded="true" signature="210:822" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="362:499" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="522:615" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="639:694" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="738:820" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="6:270" ph="..." />
+            <marker date="1540318072996" expanded="true" signature="313:1067" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="521:658" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="681:774" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="798:853" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="869:1064" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="890:1061" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -645,19 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <marker date="1539971666704" expanded="true" signature="6:138" ph="..." />
-            <marker date="1539971666704" expanded="true" signature="182:991" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="304:339" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="355:434" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="478:989" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="523:532" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="542:983" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="586:759" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="798:840" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="878:921" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="963:978" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,19 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <marker date="1539971666704" expanded="true" signature="6:138" ph="..." />
-            <marker date="1539971666704" expanded="true" signature="182:991" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="304:339" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="355:434" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="478:989" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="523:532" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="542:983" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="586:759" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="798:840" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="878:921" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="963:978" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -707,19 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <marker date="1539971666704" expanded="true" signature="6:138" ph="..." />
-            <marker date="1539971666704" expanded="true" signature="182:991" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="304:339" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="355:434" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="478:989" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="523:532" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="542:983" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="586:759" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="798:840" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="878:921" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="963:978" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -735,19 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding>
-            <marker date="1539971666704" expanded="true" signature="6:138" ph="..." />
-            <marker date="1539971666704" expanded="true" signature="182:991" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="304:339" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="355:434" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="478:989" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="523:532" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="542:983" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="586:759" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="798:840" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="878:921" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="963:978" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,19 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-          <folding>
-            <marker date="1539971666704" expanded="true" signature="6:138" ph="..." />
-            <marker date="1539971666704" expanded="true" signature="182:991" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="304:339" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="355:434" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="478:989" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="523:532" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="542:983" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="586:759" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="798:840" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="878:921" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="963:978" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,19 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <marker date="1539971666704" expanded="true" signature="6:138" ph="..." />
-            <marker date="1539971666704" expanded="true" signature="182:991" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="304:339" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="355:434" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="478:989" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="523:532" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="542:983" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="586:759" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="798:840" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="878:921" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="963:978" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,57 +479,37 @@
     <entry file="file://$PROJECT_DIR$/Assets/Enemy Spawner.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/CameraController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
+        <state relative-caret-position="675">
           <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EnemySpawner.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <marker date="1539971434250" expanded="true" signature="6:167" ph="..." />
-            <marker date="1539971434250" expanded="true" signature="210:822" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="362:499" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="522:615" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="639:694" ph="{...}" />
-            <marker date="1539971434250" expanded="true" signature="738:820" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/HealthScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <marker date="1539971434324" expanded="true" signature="6:100" ph="..." />
-            <marker date="1539971434324" expanded="true" signature="150:485" ph="{...}" />
-            <marker date="1539971434324" expanded="true" signature="220:261" ph="{...}" />
-            <marker date="1539971434324" expanded="true" signature="306:402" ph="{...}" />
-            <marker date="1539971434324" expanded="true" signature="346:398" ph="{...}" />
-            <marker date="1539971434324" expanded="true" signature="425:483" ph="{...}" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/EnemyAIScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        <state relative-caret-position="750">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/EnemySpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
           <folding>
-            <marker date="1539971666704" expanded="true" signature="6:138" ph="..." />
-            <marker date="1539971666704" expanded="true" signature="182:991" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="304:339" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="355:434" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="478:989" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="523:532" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="542:983" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="586:759" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="798:840" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="878:921" ph="{...}" />
-            <marker date="1539971666704" expanded="true" signature="963:978" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="6:270" ph="..." />
+            <marker date="1540318072996" expanded="true" signature="313:1067" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="521:658" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="681:774" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="798:853" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="869:1064" ph="{...}" />
+            <marker date="1540318072996" expanded="true" signature="890:1061" ph="{...}" />
           </folding>
         </state>
       </provider>

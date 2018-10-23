@@ -16,7 +16,7 @@ public class HealthScript : MonoBehaviour {
 	
 	private void OnTriggerEnter(Collider col)
 	{
-		if (col.gameObject.tag == "Enemy")
+		if(col.gameObject.CompareTag("Enemy"))
 		{
 			Health = Health - 1;
 			SetHealthText();

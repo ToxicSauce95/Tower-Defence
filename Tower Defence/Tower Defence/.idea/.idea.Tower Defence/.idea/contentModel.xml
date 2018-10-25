@@ -9,7 +9,6 @@
       <e p="Assets" t="Include">
         <e p="CameraController.cs" t="Include" />
         <e p="EnemyAIScript.cs" t="Include" />
-        <e p="EnemySpawner.cs" t="Include" />
         <e p="HealthScript.cs" t="Include" />
         <e p="Nav Mesh Stuff" t="Include">
           <e p="NavMeshComponents-master" t="Include">
@@ -65,6 +64,7 @@
             </e>
           </e>
         </e>
+        <e p="RoundController.cs" t="Include" />
         <e p="SampleScenes" t="Include">
           <e p="Menu" t="Include">
             <e p="Scripts" t="Include">

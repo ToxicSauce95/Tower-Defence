@@ -1276,12 +1276,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53ac5297b5106bf498ad6dbb65cee74b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 1503793904067250, guid: 9e377eb94acb7fc469896fe2bcb76a24, type: 2}
-  SpawnPoint: {fileID: 0}
   StartButton: {fileID: 1447217018}
   RoundText: {fileID: 2052243246}
   Round: 0
-  SpawnRate: 5
+  Enemy: {fileID: 1503793904067250, guid: 9e377eb94acb7fc469896fe2bcb76a24, type: 2}
+  SpawnPoint: {fileID: 851783092}
+  EnemyCount: 1
+  SpawnRate: 100000
+  StartWait: 1
+  WaveWait: 1
+  i: 0
 --- !u!1 &851854512
 GameObject:
   m_ObjectHideFlags: 0

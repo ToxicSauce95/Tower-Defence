@@ -1,20 +1,16 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class RoundController : MonoBehaviour
 {
 	public Button StartButton;
 	public Text RoundText;
-	public int Round = 0;
+	public int Round;
 
 	public GameObject Enemy;
 	public Transform SpawnPoint;
 	public int EnemyCount;
-	public float SpawnRate;
-	public float StartWait;
-	public float WaveWait;
-	public int i=0;
+	public int i;
 	
 	void Start()
 	{
@@ -42,26 +38,26 @@ public class RoundController : MonoBehaviour
 
 	private void Update()
 	{
+		
 		if (Round == 1)
 		{
-			StartCoroutine(SpawnWaves());
-					
-		}
-	}
-
-	IEnumerator SpawnWaves()
-	{
-		while (i < EnemyCount)
-		{
-			Instantiate(Enemy, SpawnPoint, SpawnPoint);
-			i++;
-			yield return new WaitForSeconds(SpawnRate);
 			
+			while (GameObject.FindGameObjectsWithTag("Enemy").Length < EnemyCount)
+			{
+				InvokeRepeating("Repeat", 0f, 5f);
+			}
+			if (GameObject.FindGameObjectsWithTag("Enemy").Length > EnemyCount)
+			{
+				CancelInvoke();
+			}
+				
 		}
-	StopCoroutine(SpawnWaves());	
-		
 	}
 
+	private void Repeat()
+	{
+		Instantiate(Enemy, SpawnPoint, SpawnPoint);	
+	}
 
 }
 

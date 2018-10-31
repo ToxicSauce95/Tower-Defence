@@ -6,8 +6,6 @@ public class EnemyAIScript : MonoBehaviour
 	public float EnemySpeed = 0.0f;
 	private Vector3 Forward;
 	private float random;
-	public int Round = 0;
-	
 	void Start()
 	{
 		GetComponent<Rigidbody>();

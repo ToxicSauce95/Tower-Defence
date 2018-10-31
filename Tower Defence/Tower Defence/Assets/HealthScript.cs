@@ -16,8 +16,9 @@ public class HealthScript : MonoBehaviour {
 	{
 		if(col.gameObject.CompareTag("Enemy"))
 		{
-			Health = Health - 1;
+			Health++;
 			SetHealthText();
+			
 		}
 
 	}

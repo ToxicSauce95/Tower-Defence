@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Runtime.InteropServices;
+using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class CameraController : MonoBehaviour
@@ -25,7 +26,9 @@ public class CameraController : MonoBehaviour
     private float fov = 60f;
 
 #endregion
-
+    
+    
+    
     #endregion
     
     void Start()
@@ -65,6 +68,10 @@ public class CameraController : MonoBehaviour
             lastMouse = new Vector3(-x * MouseSensitivity, y * MouseSensitivity, 0);
             lastMouse = new Vector3(transform.eulerAngles.x - y, transform.eulerAngles.y + x, 0);
             transform.eulerAngles = lastMouse;
+            /*Vector3 currentRotation = transform.rotation.eulerAngles;
+            currentRotation.x = Mathf.Clamp(currentRotation.x , 85, -85);
+            transform.rotation = Quaternion.Euler (currentRotation);
+            */
         }
         
         Vector3 p = GetBaseInput();
@@ -92,30 +99,58 @@ public class CameraController : MonoBehaviour
             transform.Translate(p);
         }
         
-    }   
-    
+        
+    }
+
     private Vector3 GetBaseInput() {
         
         Vector3 p_Velocity = new Vector3();
-        if (Input.GetKey (KeyCode.W)){
-            p_Velocity += new Vector3(0, 0 , 1);
+        
+        if (Input.GetKey (KeyCode.W))
+        {
+            p_Velocity += new Vector3(0, 0, 1);
+            transform.position = new Vector3(
+                Mathf.Clamp(transform.position.x, -250, 250),
+                Mathf.Clamp(transform.position.y, 15, 300),
+                Mathf.Clamp(transform.position.z, -250, 250));
         }
         if (Input.GetKey (KeyCode.S)){
             p_Velocity += new Vector3(0, 0, -1);
+            transform.position = new Vector3(
+                Mathf.Clamp(transform.position.x, -250, 250),
+                Mathf.Clamp(transform.position.y, 15, 300),
+                Mathf.Clamp(transform.position.z, -250, 250));
         }
         if (Input.GetKey (KeyCode.A)){
             p_Velocity += new Vector3(-1, 0, 0);
+            transform.position = new Vector3(
+                Mathf.Clamp(transform.position.x, -250, 250),
+                Mathf.Clamp(transform.position.y, 15, 300),
+                Mathf.Clamp(transform.position.z, -250, 250));
         }
         if (Input.GetKey (KeyCode.D)){
             p_Velocity += new Vector3(1, 0, 0);
+            transform.position = new Vector3(
+                Mathf.Clamp(transform.position.x, -250, 250),
+                Mathf.Clamp(transform.position.y, 15, 300),
+                Mathf.Clamp(transform.position.z, -250, 250));
         }
-        if (Input.GetKey (KeyCode.R)){
+        if (Input.GetKey (KeyCode.E)){
             p_Velocity += new Vector3(0, 1 , 0);
+            transform.position = new Vector3(
+                Mathf.Clamp(transform.position.x, -250, 250),
+                Mathf.Clamp(transform.position.y, 15, 300),
+                Mathf.Clamp(transform.position.z, -250, 250));
         }
-        if (Input.GetKey (KeyCode.F)){
+        if (Input.GetKey (KeyCode.Q)){
             p_Velocity += new Vector3(0, -1 , 0);
+            transform.position = new Vector3(
+                Mathf.Clamp(transform.position.x, -250, 250),
+                Mathf.Clamp(transform.position.y, 15, 300),
+                Mathf.Clamp(transform.position.z, -250, 250));
         }
         return p_Velocity;
     }
-    
+
+
 }

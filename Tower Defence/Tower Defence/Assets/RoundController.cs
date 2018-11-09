@@ -63,7 +63,6 @@ public class RoundController : MonoBehaviour
 	{ 		
 		InvokeRepeating("Repeat", .5f, spawnRate);
 		SpawnedEnemies = 0;
-		
 	}
 	
 	void Repeat()

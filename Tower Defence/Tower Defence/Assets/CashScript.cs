@@ -8,7 +8,6 @@ public class CashScript : MonoBehaviour {
 	private int Cash = 500;
 	public Text HealthText;
 	private int Health = 150;
-	public int Enemy;
 	private RoundController roundController;
 	public GameObject otherGameobject;
 	

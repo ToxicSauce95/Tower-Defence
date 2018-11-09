@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Runtime.InteropServices;
+using UnityEngine;
 
 public class EnemyAIScript : MonoBehaviour
 {
@@ -6,15 +7,30 @@ public class EnemyAIScript : MonoBehaviour
 	public float EnemySpeed = 0.0f;
 	private Vector3 Forward;
 	private float random;
+	public int health = 10;
+	private BasicBullet basicBullet;
+	public GameObject otherGameobject;
+	
 	void Start()
 	{
 		GetComponent<Rigidbody>();
-		
+		health = 10;
+	}
+	
+	private void Awake()
+	{
+		basicBullet = otherGameobject.GetComponent<BasicBullet>();
 	}
 
 	void Update()
 	{
 		transform.position += transform.forward * Time.deltaTime * EnemySpeed;
+		
+		if (health == 0)
+		{
+			Destroy(gameObject, 0);
+		}
+			
 	}
 
 	private void OnTriggerEnter(Collider col)
@@ -53,7 +69,12 @@ public class EnemyAIScript : MonoBehaviour
 			}
 		
 		}
-		
+
+		if (col.gameObject.tag == "bullet")
+		{
+			health = health - basicBullet.damage;
+		}
+
 	}
 	
 }

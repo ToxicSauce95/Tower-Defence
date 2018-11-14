@@ -16,8 +16,6 @@ public class CashScript : MonoBehaviour {
 		Health = 150;
 		SetHealthText();
 		Cash = 500;
-
-		
 	}
 
 

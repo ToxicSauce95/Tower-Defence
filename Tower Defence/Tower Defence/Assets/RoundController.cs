@@ -1,17 +1,20 @@
-﻿﻿using UnityEngine;
+﻿﻿using UnityEditor;
+ using UnityEngine;
 using UnityEngine.UI;
+ using System.Collections;
 
 
 public class RoundController : MonoBehaviour
 {
 	public Button StartButton;
+	public Transform button;
 	public Text RoundText;
 	private int Round;
 	public Text EnemyCounter;
-	[SerializeField] public int enemy;
+	public float enemy = 0;
 	
-	private int SpawnedEnemies = 0;
-	private static int EnemyCount = 0;
+	public int SpawnedEnemies = 0;
+	public int EnemyCount = 0;
 	public GameObject Enemy;
 	public Transform SpawnPoint;
 
@@ -56,7 +59,20 @@ public class RoundController : MonoBehaviour
 		}
 		EnemyCounter.text = "Enemies: " + enemy.ToString();
 		
-		
+		if (enemy >= 1)
+		{
+			if (StartButton.GetComponent<Button>().IsInteractable() == true)
+			{
+				StartButton.GetComponent<Button>().interactable = false;
+			}
+		}
+		if (enemy <= 1)
+		{
+			if (StartButton.GetComponent<Button>().IsInteractable() == false)
+			{
+				StartButton.GetComponent<Button>().interactable = true;
+			}
+		}		
 	}
 
 	void SpawnEnemies(float spawnRate)

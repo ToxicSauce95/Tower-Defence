@@ -10,6 +10,7 @@ public class EnemyAIScript : MonoBehaviour
 	public int health = 10;
 	private BasicBullet basicBullet;
 	public GameObject otherGameobject;
+    private RoundController roundController;
 	
 	void Start()
 	{
@@ -20,14 +21,16 @@ public class EnemyAIScript : MonoBehaviour
 	private void Awake()
 	{
 		basicBullet = otherGameobject.GetComponent<BasicBullet>();
+		roundController = otherGameobject.GetComponent<RoundController>();
 	}
 
 	void Update()
 	{
 		transform.position += transform.forward * Time.deltaTime * EnemySpeed;
 		
-		if (health == 0)
+		if (health = 0)
 		{
+            roundController.enemy = roundController.enemy - 1; 
 			Destroy(gameObject, 0);
 		}
 			
@@ -73,8 +76,10 @@ public class EnemyAIScript : MonoBehaviour
 		if (col.gameObject.tag == "bullet")
 		{
 			health = health - basicBullet.damage;
+            
 		}
 
 	}
-	
 }
+
+	

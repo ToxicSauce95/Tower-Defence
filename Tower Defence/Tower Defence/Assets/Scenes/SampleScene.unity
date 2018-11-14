@@ -1441,9 +1441,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartButton: {fileID: 1447217018}
+  button: {fileID: 1447217017}
   RoundText: {fileID: 2052243246}
   EnemyCounter: {fileID: 299146987}
   enemy: 0
+  SpawnedEnemies: 0
+  EnemyCount: 0
   Enemy: {fileID: 1503793904067250, guid: 9e377eb94acb7fc469896fe2bcb76a24, type: 2}
   SpawnPoint: {fileID: 851783092}
 --- !u!1 &851854512
@@ -3624,6 +3627,10 @@ Prefab:
     - target: {fileID: 4165127766816160, guid: 9ccb178fff9bd484eb5820cf9729ead8, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764165977995776, guid: 9ccb178fff9bd484eb5820cf9729ead8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 65841501023092948, guid: 9ccb178fff9bd484eb5820cf9729ead8, type: 2}

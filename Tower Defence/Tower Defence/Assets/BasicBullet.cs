@@ -11,6 +11,7 @@ public class BasicBullet : MonoBehaviour
 	public int damage = 10;
 	
 	
+	
 	void Update ()
 	{
 		transform.position += transform.forward * Time.deltaTime * speed;
@@ -19,5 +20,8 @@ public class BasicBullet : MonoBehaviour
 	private void OnTriggerEnter(Collider col)
 	{
 			Destroy(gameObject, 0);
+			
 	}
 }
+		
+

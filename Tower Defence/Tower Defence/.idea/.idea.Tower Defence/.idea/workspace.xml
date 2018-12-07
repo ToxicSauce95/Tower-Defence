@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3cde948-7133-457c-900b-df005d5e67da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower Defence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower Defence/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower Defence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower Defence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BasicBullet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BasicBullet.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BasicTower.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BasicTower.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CashScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CashScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyAIScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyAIScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemys.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemys/TestEnemy (2).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemys/TestEnemy (2).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemys/TestEnemy .prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemys/TestEnemy .prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RoundController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RoundController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Test Enemy/TestEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Test Enemy/TestEnemy.prefab" afterDir="false" />
-    </list>
+    <list default="true" id="d3cde948-7133-457c-900b-df005d5e67da" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +189,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1273" />
     <option name="width" value="1294" />
     <option name="height" value="1047" />
@@ -302,12 +280,12 @@
       <workItem from="1541784542341" duration="6062000" />
       <workItem from="1542216227913" duration="1908000" />
       <workItem from="1542219025191" duration="4000" />
-      <workItem from="1544203389997" duration="6272000" />
+      <workItem from="1544203389997" duration="6371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83520000" />
+    <option name="totallyTimeSpent" value="83619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,8 +297,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1047" extended-state="1" />
-    <editor active="true" />
+    <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />

@@ -1,36 +1,36 @@
-﻿using System.Runtime.InteropServices;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyAIScript : MonoBehaviour
 {
+    
 	private Rigidbody rb;
 	public float EnemySpeed = 0.0f;
 	private Vector3 Forward;
 	private float random;
-	public int health = 10;
-	private BasicBullet basicBullet;
-	public GameObject otherGameobject;
-    private RoundController roundController;
 	
+	public float health = 10f;
+
+	public int cash;
+	private BasicBullet basicBullet;
+    public GameObject bullet;
+
 	void Start()
 	{
 		GetComponent<Rigidbody>();
-		health = 10;
+		health = 10f;
 	}
 	
 	private void Awake()
 	{
-		basicBullet = otherGameobject.GetComponent<BasicBullet>();
-		roundController = otherGameobject.GetComponent<RoundController>();
+		basicBullet = bullet.GetComponent<BasicBullet>();
 	}
 
 	void Update()
 	{
 		transform.position += transform.forward * Time.deltaTime * EnemySpeed;
 		
-		if (health = 0)
+		if (health <= 0f)
 		{
-            roundController.enemy = roundController.enemy - 1; 
 			Destroy(gameObject, 0);
 		}
 			
@@ -76,7 +76,6 @@ public class EnemyAIScript : MonoBehaviour
 		if (col.gameObject.tag == "bullet")
 		{
 			health = health - basicBullet.damage;
-            
 		}
 
 	}

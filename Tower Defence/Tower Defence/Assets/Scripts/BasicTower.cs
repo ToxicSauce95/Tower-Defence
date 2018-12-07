@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BasicTower : MonoBehaviour
 {
@@ -38,6 +36,7 @@ public class BasicTower : MonoBehaviour
 			Shooting = true;
 		}
 	}
+	
 
 	
 

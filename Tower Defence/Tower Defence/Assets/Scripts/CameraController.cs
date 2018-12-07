@@ -1,5 +1,4 @@
-﻿using System.Runtime.InteropServices;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class CameraController : MonoBehaviour
@@ -68,10 +67,6 @@ public class CameraController : MonoBehaviour
             lastMouse = new Vector3(-x * MouseSensitivity, y * MouseSensitivity, 0);
             lastMouse = new Vector3(transform.eulerAngles.x - y, transform.eulerAngles.y + x, 0);
             transform.eulerAngles = lastMouse;
-            /*Vector3 currentRotation = transform.rotation.eulerAngles;
-            currentRotation.x = Mathf.Clamp(currentRotation.x , 85, -85);
-            transform.rotation = Quaternion.Euler (currentRotation);
-            */
         }
         
         Vector3 p = GetBaseInput();

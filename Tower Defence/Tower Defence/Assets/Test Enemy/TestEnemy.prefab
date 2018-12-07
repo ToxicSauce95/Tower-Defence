@@ -114,8 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemySpeed: 50
   health: 10
-  otherGameobject: {fileID: 1484909981954562, guid: 7416ea3e62aa7e94fa2571ba229e00e3,
-    type: 2}
+  bullet: {fileID: 1484909981954562, guid: 7416ea3e62aa7e94fa2571ba229e00e3, type: 2}
 --- !u!135 &135155910134674346
 SphereCollider:
   m_ObjectHideFlags: 1
